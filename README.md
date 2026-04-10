@@ -75,7 +75,7 @@ fit1 = glm(Status ~ Capital + Age, family=binomial(link='logit'), data=data)
 ```r
 install.packages(c("descr", "caret", "DescTools", "glmtoolbox"))
 ```
-3. Run the script section by section (Part A → B → C)
+3. Run the script section by section 
 
 ---
 
