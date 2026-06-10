@@ -1,4 +1,4 @@
-# Entrepreneurial Success — Logistic Regression Analysis (R)
+# Entrepreneurial Success - Logistic Regression Analysis (R)
 
 
 A logistic regression study examining whether **initial capital** and **age** influence the probability of entrepreneurial success. Both simple and multiple logistic regression models are fitted and evaluated using goodness-of-fit tests, confusion matrices, and odds ratios.
@@ -30,7 +30,7 @@ An economist aims to determine whether initial capital (in thousands of euros) a
 
 ## Analysis
 
-### Part B — Simple Logistic Regression
+### Part B - Simple Logistic Regression
 
 Fitted a logistic regression model relating business status to **initial capital** alone:
 
@@ -40,10 +40,10 @@ fit = glm(Status ~ Capital, family=binomial(link='logit'), data=data)
 
 - Constructed a classification table comparing actual vs predicted business status
 - Evaluated goodness of fit using the **Hosmer-Lemeshow test** and **-2 Log-Likelihood**
-- Computed **Pseudo R²** (Cox & Snell and Nagelkerke)
+- Computed **Pseudo R^2** (Cox & Snell and Nagelkerke)
 - Calculated **odds ratios** and **95% confidence intervals**
 
-### Part C — Multiple Logistic Regression
+### Part C - Multiple Logistic Regression
 
 Extended the model by adding **age** as a second predictor:
 
@@ -51,7 +51,7 @@ Extended the model by adding **age** as a second predictor:
 fit1 = glm(Status ~ Capital + Age, family=binomial(link='logit'), data=data)
 ```
 
-- Compared model fit against the simple model using deviance and Pseudo R²
+- Compared model fit against the simple model using deviance and Pseudo R^2
 - Re-evaluated classification accuracy via confusion matrix
 - Computed odds ratios and confidence intervals for both Capital and Age
 
@@ -64,7 +64,7 @@ fit1 = glm(Status ~ Capital + Age, family=binomial(link='logit'), data=data)
 - Classification accuracy via confusion matrices (sensitivity, specificity, accuracy)
 - Odds ratio interpretation with confidence intervals
 - Simple vs multiple logistic regression comparison
-- Pseudo R² measures for logistic models (Cox & Snell, Nagelkerke)
+- Pseudo R^2 measures for logistic models (Cox & Snell, Nagelkerke)
 
 ---
 
@@ -81,5 +81,5 @@ install.packages(c("descr", "caret", "DescTools", "glmtoolbox"))
 
 
 **Oresti Janko**
-BSc Statistics and Insurance Science — University of Piraeus
+BSc Statistics and Insurance Science - University of Piraeus
 Focus: Statistical modelling, logistic regression, quantitative analysis
