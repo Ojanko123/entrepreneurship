@@ -23,7 +23,7 @@ An economist aims to determine whether initial capital (in thousands of euros) a
 | Base R | Data management and GLM fitting |
 | `descr` | Confusion matrix (crosstab) |
 | `caret` | Detailed confusion matrix with performance metrics |
-| `DescTools` | Pseudo R² statistics (Cox & Snell, Nagelkerke) |
+| `DescTools` | Pseudo R^2 statistics (Cox & Snell, Nagelkerke) |
 | `glmtoolbox` | Hosmer-Lemeshow goodness-of-fit test |
 
 ---
